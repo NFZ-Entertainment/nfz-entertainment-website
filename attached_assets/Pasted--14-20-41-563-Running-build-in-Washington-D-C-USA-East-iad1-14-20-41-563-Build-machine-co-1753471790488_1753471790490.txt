@@ -1,0 +1,41 @@
+[14:20:41.563] Running build in Washington, D.C., USA (East) – iad1
+[14:20:41.563] Build machine configuration: 2 cores, 8 GB
+[14:20:41.599] Cloning github.com/NFZ-Entertainment/website (Branch: main, Commit: b8c0c41)
+[14:20:41.731] Previous build caches not available
+[14:20:42.191] Cloning completed: 592.000ms
+[14:20:44.126] Running "vercel build"
+[14:20:45.364] Vercel CLI 44.5.0
+[14:20:46.468] Running "install" command: `npm install`...
+[14:20:51.132] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[14:20:51.233] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[14:20:56.632] 
+[14:20:56.632] added 481 packages, and audited 482 packages in 10s
+[14:20:56.633] 
+[14:20:56.633] 64 packages are looking for funding
+[14:20:56.633]   run `npm fund` for details
+[14:20:56.665] 
+[14:20:56.665] 11 vulnerabilities (3 low, 8 moderate)
+[14:20:56.665] 
+[14:20:56.666] To address issues that do not require attention, run:
+[14:20:56.666]   npm audit fix
+[14:20:56.666] 
+[14:20:56.666] To address all issues (including breaking changes), run:
+[14:20:56.666]   npm audit fix --force
+[14:20:56.666] 
+[14:20:56.666] Run `npm audit` for details.
+[14:20:56.953] 
+[14:20:56.954] > rest-express@1.0.0 build
+[14:20:56.955] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[14:20:56.955] 
+[14:20:57.208] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[14:20:57.240] [32m✓[39m 0 modules transformed.
+[14:20:57.242] [31mx[39m Build failed in 10ms
+[14:20:57.243] [31merror during build:
+[14:20:57.243] [31mCould not resolve entry module "client/index.html".[31m
+[14:20:57.243]     at getRollupError (file:///vercel/path0/node_modules/rollup/dist/es/shared/parseAst.js:396:41)
+[14:20:57.243]     at error (file:///vercel/path0/node_modules/rollup/dist/es/shared/parseAst.js:392:42)
+[14:20:57.243]     at ModuleLoader.loadEntryModule (file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:20086:20)
+[14:20:57.243]     at async Promise.all (index 0)[39m
+[14:20:57.257] Error: Command "npm run build" exited with 1
+[14:20:57.481] 
+[14:21:00.499] Exiting build container

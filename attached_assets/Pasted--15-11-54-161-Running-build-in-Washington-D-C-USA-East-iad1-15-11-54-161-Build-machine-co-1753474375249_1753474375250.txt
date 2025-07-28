@@ -1,0 +1,58 @@
+[15:11:54.161] Running build in Washington, D.C., USA (East) – iad1
+[15:11:54.161] Build machine configuration: 2 cores, 8 GB
+[15:11:54.176] Cloning github.com/NFZ-Entertainment/website (Branch: main, Commit: 3a0b6cf)
+[15:11:54.339] Previous build caches not available
+[15:11:54.532] Cloning completed: 355.000ms
+[15:11:56.465] Running "vercel build"
+[15:11:58.175] Vercel CLI 44.5.0
+[15:11:59.327] Running "install" command: `npm install`...
+[15:12:04.334] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[15:12:04.366] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[15:12:09.776] 
+[15:12:09.777] added 481 packages, and audited 482 packages in 10s
+[15:12:09.777] 
+[15:12:09.778] 64 packages are looking for funding
+[15:12:09.778]   run `npm fund` for details
+[15:12:09.806] 
+[15:12:09.806] 11 vulnerabilities (3 low, 8 moderate)
+[15:12:09.807] 
+[15:12:09.807] To address issues that do not require attention, run:
+[15:12:09.807]   npm audit fix
+[15:12:09.807] 
+[15:12:09.807] To address all issues (including breaking changes), run:
+[15:12:09.808]   npm audit fix --force
+[15:12:09.808] 
+[15:12:09.809] Run `npm audit` for details.
+[15:12:09.964] === NFZ Entertainment Build Script ===
+[15:12:09.965] Current directory: /vercel/path0
+[15:12:09.965] Directory contents:
+[15:12:09.967] total 1388
+[15:12:09.967] drwx------   1 root root    101 Jul 25 20:12 .
+[15:12:09.968] drwxr-x---  12 root root    254 Jul 25 20:12 ..
+[15:12:09.968] drwxr-xr-x   8 root root    162 Jul 25 20:11 .git
+[15:12:09.968] -rw-r--r--   1 root root     67 Jul 25 20:11 .gitignore
+[15:12:09.968] -rw-r--r--   1 root root    697 Jul 25 20:11 .replit
+[15:12:09.968] drwxr-xr-x   2 root root     26 Jul 25 20:11 .vercel
+[15:12:09.969] -rw-r--r--   1 root root   4865 Jul 25 20:11 DEPLOYMENT_GUIDE.md
+[15:12:09.969] -rw-r--r--   1 root root   1518 Jul 25 20:11 README.md
+[15:12:09.969] -rw-r--r--   1 root root   6997 Jul 25 20:11 VERCEL_DEPLOYMENT_GUIDE.md
+[15:12:09.969] -rwxr-xr-x   1 root root    551 Jul 25 20:11 build.sh
+[15:12:09.969] -rw-r--r--   1 root root    459 Jul 25 20:11 components.json
+[15:12:09.969] -rw-r--r--   1 root root    325 Jul 25 20:11 drizzle.config.ts
+[15:12:09.969] -rw-r--r--   1 root root 998983 Jul 25 20:11 nfz-deployment-package.tar.gz
+[15:12:09.970] drwxr-xr-x 317 root root  12288 Jul 25 20:12 node_modules
+[15:12:09.970] -rw-r--r--   1 root root 320348 Jul 25 20:12 package-lock.json
+[15:12:09.970] -rw-r--r--   1 root root   3535 Jul 25 20:11 package.json
+[15:12:09.970] -rw-r--r--   1 root root     80 Jul 25 20:11 postcss.config.js
+[15:12:09.970] -rw-r--r--   1 root root   4439 Jul 25 20:11 replit.md
+[15:12:09.971] -rw-r--r--   1 root root   2627 Jul 25 20:11 tailwind.config.ts
+[15:12:09.971] -rw-r--r--   1 root root    657 Jul 25 20:11 tsconfig.json
+[15:12:09.971] -rw-r--r--   1 root root   1170 Jul 25 20:11 vercel-build.js
+[15:12:09.971] -rw-r--r--   1 root root    126 Jul 25 20:11 vercel.json
+[15:12:09.971] -rw-r--r--   1 root root    971 Jul 25 20:11 vite.config.ts
+[15:12:09.971] -rw-r--r--   1 root root    631 Jul 25 20:11 vite.config.vercel.ts
+[15:12:09.972] === Checking client directory ===
+[15:12:09.972] ERROR: client directory not found
+[15:12:09.972] Error: Command "chmod +x build.sh && ./build.sh" exited with 1
+[15:12:10.247] 
+[15:12:13.633] Exiting build container

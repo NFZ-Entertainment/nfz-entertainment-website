@@ -1,0 +1,33 @@
+[14:11:25.107] Running build in Washington, D.C., USA (East) – iad1
+[14:11:25.108] Build machine configuration: 2 cores, 8 GB
+[14:11:25.182] Cloning github.com/NFZ-Entertainment/website2 (Branch: main, Commit: 7c3514e)
+[14:11:25.599] Previous build caches not available
+[14:11:26.091] Cloning completed: 908.000ms
+[14:11:28.726] Running "vercel build"
+[14:11:29.198] Vercel CLI 44.5.0
+[14:11:29.369] WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+[14:11:29.781] Installing dependencies...
+[14:11:34.279] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[14:11:34.292] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[14:11:39.089] 
+[14:11:39.089] added 481 packages in 9s
+[14:11:39.090] 
+[14:11:39.090] 64 packages are looking for funding
+[14:11:39.091]   run `npm fund` for details
+[14:11:39.154] Running "npm run build"
+[14:11:39.265] 
+[14:11:39.266] > rest-express@1.0.0 build
+[14:11:39.266] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[14:11:39.266] 
+[14:11:39.553] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[14:11:39.584] [32m✓[39m 0 modules transformed.
+[14:11:39.586] [31mx[39m Build failed in 9ms
+[14:11:39.586] [31merror during build:
+[14:11:39.587] [31mCould not resolve entry module "client/index.html".[31m
+[14:11:39.587]     at getRollupError (file:///vercel/path0/node_modules/rollup/dist/es/shared/parseAst.js:396:41)
+[14:11:39.587]     at error (file:///vercel/path0/node_modules/rollup/dist/es/shared/parseAst.js:392:42)
+[14:11:39.587]     at ModuleLoader.loadEntryModule (file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:20086:20)
+[14:11:39.587]     at async Promise.all (index 0)[39m
+[14:11:39.600] Error: Command "npm run build" exited with 1
+[14:11:39.798] 
+[14:11:42.808] Exiting build container

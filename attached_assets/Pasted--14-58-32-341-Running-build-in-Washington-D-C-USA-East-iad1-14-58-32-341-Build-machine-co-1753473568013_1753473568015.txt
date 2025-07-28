@@ -1,0 +1,40 @@
+[14:58:32.341] Running build in Washington, D.C., USA (East) – iad1
+[14:58:32.341] Build machine configuration: 2 cores, 8 GB
+[14:58:32.378] Cloning github.com/NFZ-Entertainment/website (Branch: main, Commit: ff6f4df)
+[14:58:32.496] Previous build caches not available
+[14:58:32.705] Cloning completed: 326.000ms
+[14:58:33.077] Running "vercel build"
+[14:58:34.530] Vercel CLI 44.5.0
+[14:58:35.943] Running "install" command: `npm install`...
+[14:58:40.675] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[14:58:40.675] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[14:58:46.208] 
+[14:58:46.209] added 481 packages, and audited 482 packages in 10s
+[14:58:46.209] 
+[14:58:46.210] 64 packages are looking for funding
+[14:58:46.210]   run `npm fund` for details
+[14:58:46.240] 
+[14:58:46.240] 11 vulnerabilities (3 low, 8 moderate)
+[14:58:46.241] 
+[14:58:46.241] To address issues that do not require attention, run:
+[14:58:46.241]   npm audit fix
+[14:58:46.241] 
+[14:58:46.242] To address all issues (including breaking changes), run:
+[14:58:46.242]   npm audit fix --force
+[14:58:46.242] 
+[14:58:46.242] Run `npm audit` for details.
+[14:58:46.442] Starting NFZ Entertainment website build...
+[14:58:46.442] Building frontend with Vite...
+[14:58:47.207] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[14:58:47.237] [32m✓[39m 0 modules transformed.
+[14:58:47.239] [31mx[39m Build failed in 9ms
+[14:58:47.240] [31merror during build:
+[14:58:47.240] [31mCould not resolve entry module "client/index.html".[31m
+[14:58:47.240]     at getRollupError (file:///vercel/path0/node_modules/rollup/dist/es/shared/parseAst.js:396:41)
+[14:58:47.240]     at error (file:///vercel/path0/node_modules/rollup/dist/es/shared/parseAst.js:392:42)
+[14:58:47.240]     at ModuleLoader.loadEntryModule (file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:20086:20)
+[14:58:47.240]     at async Promise.all (index 0)[39m
+[14:58:47.255] Build failed: Command failed: npx vite build --config vite.config.vercel.ts
+[14:58:47.260] Error: Command "node vercel-build.js" exited with 1
+[14:58:47.474] 
+[14:58:50.543] Exiting build container
