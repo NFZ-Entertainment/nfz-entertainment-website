@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "buildCommand": "chmod +x build.sh && ./build.sh",
-  "outputDirectory": "dist/public",
+  "buildCommand": "cd client && npm install && npm run build",
+  "outputDirectory": "client/dist",
   "installCommand": "npm install"
 }
